@@ -1,2 +1,17 @@
-# add required python packages here
-# command: `pip freeze > requirements.txt`
+requests == 2.25.1
+numpy == 1.19.5
+pandas == 1.1.5
+python-dotenv == 1.0.0
+
+# pip install -r requirements.txt
+
+
+
+# to create env    by venv 
+# python3 -m venv env
+
+# to activate environment 
+# source env/bin/activate
+
+# to check lib
+# pip list
