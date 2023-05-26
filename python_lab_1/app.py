@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # read config file (JSON) and call load_dotenv function
     json_path = "config.json"
     json_config: dict = read_config(json_path)
-    load_dotenv()
+    load_dotenv() #to load data from .env
 
     #get config values
     time_sleep = json_config.get("time_sleep", 60*60)
